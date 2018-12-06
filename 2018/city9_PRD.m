@@ -12,7 +12,7 @@ latmodel=latmodel(:,:,1,1);
 
 A=zeros(73,9); %建立一个73列9行的数组。
 
-ncfile='D:\wrfout\wrfout-nourban-4-7';%读不同文件下的不同文件%！！！！改改改！！！！！！！！
+ncfile='D:\wrfout\wrfout-nourban-4-7';%读不同文件下的不同文件%
 
 for t=1:73  % t=1是世界时0时刻，北京时08时，第24个时次是次日07时。
 temp=ncread(ncfile,'PM2_5_DRY');
